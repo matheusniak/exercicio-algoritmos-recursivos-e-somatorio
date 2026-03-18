@@ -21,12 +21,12 @@ public class Somatorio {
         System.out.println("N\tIterativa (ns)\tRecursiva (ns)");
         
         for (int n : entradas) {
-            // Medindo Iterativa
+            // Iterativa
             long startIt = System.nanoTime();
             funcaoIt(n);
             long endIt = System.nanoTime();
             
-            // Medindo Recursiva
+            // Recursiva
             long startRe = System.nanoTime();
             funcaoRe(n);
             long endRe = System.nanoTime();
